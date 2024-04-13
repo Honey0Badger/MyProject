@@ -3,11 +3,38 @@ h1{
     font-style: italic;
 }
 p{
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
 }
 li a{
     font-style: italic;
+}
+#log2{
+    padding-left: 1000px;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+#img2{
+    padding-left: 630px;
+}
+#log{
+    padding-left: 50px;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+}
+#h5{
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 145, 80);
+}
+#p4{
+    font-weight: bold;
 }
