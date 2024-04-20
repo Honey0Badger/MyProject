@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=NetBeans
+GenericName=NetBeans - Apache Java IDE. Fits the Pieces Together
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=netbeans-desktop org.apache.netbeans
+Terminal=false
+Icon=org.apache.netbeans
+Type=Application
+Categories=Development;
+X-Desktop-File-Install-Version=0.21
+StartupWMClass=netbeans
+X-Flatpak=org.apache.netbeans
