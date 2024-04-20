@@ -3,7 +3,7 @@ h1{
     font-style: italic;
 }
 p{
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: justify;
@@ -18,7 +18,7 @@ li a{
     font-weight: bold;
 }
 #img2{
-    padding-left: 630px;
+    padding-left: 720px;
 }
 #log{
     padding-left: 50px;
@@ -37,4 +37,14 @@ h3{
 }
 #p4{
     font-weight: bold;
+}
+#a0{
+    color: black;
+    text-decoration: none;
+}
+#a1{
+    padding-left: 840px;
+}
+#ap1{
+    font-size: 30px;
 }
