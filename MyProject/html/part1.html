@@ -9,7 +9,25 @@
   </head>
   <body>
     <div class="container">
-        <button onclick="window.location.href= 'crtproject3.html'" id="ap1" type="button" class="btn-close" aria-label="close"></button>
+        <button onclick="window.location.href= 'CreateApp3.html'" id="ap1" type="button" class="btn-close" aria-label="close"></button>
+        <h3 style="text-align: center;">Экземпляр приложения</h2>
+        <p style="font-size: 18px; text-align: center;">
+          Создание любого приложения Vue начинается с создания нового экземпляра приложения с помощью функции <a style="color: rgb(0, 145, 80);">createApp:</a>
+        </p>
+        <img src="#">
+        <h3 style="text-align: center;">Корневой компонент</h2>
+        <p style="text-align: justify;">
+          Опции, передаваемые в <a style="color: rgb(0, 145, 80);">createApp</a>, по сути являются опциями компонента. Каждое приложение требует наличия «корневого компонента», который может содержать другие компоненты в качестве своих дочерних элементов. При использовании однофайловых компонентов, обычно корневой компонент импортируется из другого файла:
+        </p>
+        <img src="#">
+        <h3>Монтирование приложения</h3>
+        <p style="text-align: justify;">
+          Экземпляр приложения не будет ничего отрисовывать, пока не вызвать его метод <a style="color: rgb(185, 0, 255);">.mount()</a>. Он ожидает передачи «контейнера» аргументом, который может быть либо DOM-элементом, либо строкой селектора:
+        </p>
+        <img src="#">
+        <p style="text-align: justify;">
+          Метод <a style="color: rgb(185, 0, 255);">.mount()</a> следует всегда вызывать после выполнения всех конфигураций приложения и регистрации необходимых ресурсов. Также обратите внимание, что в отличие от методов регистрации ресурсов его возвращаемым значением будет экземпляр корневого компонента, а не экземпляр приложения.
+        </p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
