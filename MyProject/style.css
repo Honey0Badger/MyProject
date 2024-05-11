@@ -39,7 +39,7 @@ h3{
     font-weight: bold;
 }
 #a0{
-    color: black;
+    color: black; /* links */
     text-decoration: none;
 }
 #a1{
@@ -52,4 +52,18 @@ h3{
     font-style: italic;
     font-weight: bold;
     color: rgb(0, 145, 80);
+}
+#b0{
+    background-image: url(../MyProject/images/vue0.png); /* image of main page */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#zag{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
